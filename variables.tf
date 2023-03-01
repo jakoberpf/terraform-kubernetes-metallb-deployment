@@ -10,12 +10,13 @@ variable "namespace" {
   default = "metallb"
 }
 
-variable "helm_chart_version" {
-  type    = string
-  default = "v0.13.9"
-}
-
 variable "compartment" {
   type        = string
   description = "The compartment the ressource is deployed with."
+}
+
+# Helm
+variable "helm_chart_version" {
+  type    = string
+  default = "v0.13.9"
 }
