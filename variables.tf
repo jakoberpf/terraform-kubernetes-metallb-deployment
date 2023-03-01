@@ -10,7 +10,7 @@ variable "namespace" {
   default = "metallb"
 }
 
-variable "version" {
+variable "helm_chart_version" {
   type    = string
   default = "v0.13.9"
 }
